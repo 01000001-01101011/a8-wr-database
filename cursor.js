@@ -33,6 +33,7 @@ window.onload = (e) => {
     $("#foot").load("./footer.html", ()=>{a()});
     $("#nav").load("./nav.html", ()=>{a()});
 
+
 };
 
 let lX = 0;
