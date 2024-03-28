@@ -284,3 +284,20 @@ rgba(17, 25, 31, 1) 100%),
 #fovSlider, #carSelector {
     margin: 0px, 1rem;
 }
+
+
+.mapBlock {
+    padding: 0.5rem;
+    width: 20rem;
+    max-width: 80vw;
+    margin: auto;
+    background-size: cover;
+    transition: border-radius 500ms, box-shadow 2s, transform 1s;
+}
+
+.mapBlock:hover {
+    border-radius: 5rem 2rem;
+    box-shadow: 0px 0px 3rem 3rem rgba(0, 0, 0, 0.2);
+    transform: scale(130%);
+    transition: border-radius 500ms, box-shadow 2s, transform 2s, background-size 2s;
+}
