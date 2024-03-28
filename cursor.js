@@ -19,11 +19,11 @@ function a(){
 }
 
 window.onload = (e) => {
-    for (const element of document.querySelectorAll("input, .imageBlock, textarea")) {
+    for (const element of document.querySelectorAll("input, .imageBlock, textarea, .mapBlock")) {
         element.addEventListener("mouseenter", (e) => { dotSize(hoverSize) });
         element.addEventListener("mouseleave", (e) => { dotSize(baseSize) });
     }    
-    for (const element of document.querySelectorAll(".artBlock, .mapBlock")) {
+    for (const element of document.querySelectorAll(".artBlock")) {
         element.addEventListener("mouseenter", (e) => { dotSize(baseSize*2) });
         element.addEventListener("mouseleave", (e) => { dotSize(baseSize) });
     }  
